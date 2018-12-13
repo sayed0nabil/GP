@@ -1,0 +1,56 @@
+
+.app{
+  overflow: hidden;
+}
+.app > div{
+  /* display: inline-block; */
+  float: left;
+  width: 300px;
+  min-height: 100vh;
+  padding: 30 10;
+  border: 2px solid pink;
+}
+.app > div > h2{
+  color: white;
+  background: rgba(0, 0, 0, .6);
+  height: 30px;
+  border-bottom: 2px solid black;
+}
+.app > div:first-of-type{
+  background: rgb(6, 221, 236);
+}
+.app .app > div:first-of-type > h2 {
+  color: rgb(68, 240, 0);
+}
+.app > div:nth-of-type(2){
+  background: rgb(2, 75, 243);
+}
+.app > div:nth-of-type(2) > h2{
+  color: rgb(233, 250, 0);
+}
+.app > div:nth-of-type(3){
+  background: rgb(233, 250, 0);
+}
+.app > div:nth-of-type(3) > h2{
+  color: rgb(2, 75, 243);
+}
+.app > div:nth-of-type(4){
+  background: rgb(68, 240, 0);
+  width: 400px;
+}
+.app > div:nth-of-type(4) > h2{
+  color: white;
+}
+.tools .btn{
+  width :100px;
+  height: 20px;
+}
+.paper{
+
+}
+.center{
+  text-align: center;
+}
+.xml{
+  font-size: 15px;
+}
